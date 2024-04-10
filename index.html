@@ -1,0 +1,644 @@
+<style type="text/css">
+body {
+    background: url(https://i.ibb.co/pnDbX18/grid-me.png);
+    background-color: #ffffff;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: repeat;
+}
+body,html, a, a:hover {
+    cursor:url(https://i.ibb.co/CW8zB0s/cursor2.png), progress!important;
+}
+A {text-decoration: none;}
+
+:root {
+    --color-aux: #FEECE2;
+    --color-bor: #FFBE98;
+}
+ 
+/** text selection **/
+
+::selection {
+    color: #ffffff; /** text selection text **/
+    background-color: #FEECE2; /** text selection bg **/
+}
+
+::-moz-selection {
+    color: #ffffff; /** text selection text **/
+    background-color: #FEECE2; /** text selection bg **/
+}
+
+::-webkit-selection {
+    color: #ffffff; /** text selection text **/
+    background-color: #FEECE2; /** text selection bg **/
+}
+
+/*NAVBAR*/
+#nvb {height: 100px; background: #fefefe90; position: fixed; top: 0px; left: 221px; right: 0px; border-bottom: 1px solid #EDEDED} 
+#nvb .nvb-tp {height: 80px;     background: #fefefe;
+    border-bottom: 1px solid #EDEDED}
+
+/*WRAP*/
+
+#wrp-ot {
+  max-width: 990px;
+  min-width: 990px;
+  outline: 1px solid #EDEDED;
+  background: #fefefe90;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 130px;
+  margin-left: 260px;
+  margin-right: 100px;
+  margin: 0 auto; margin-top: 150px;
+}
+#wrp-md {
+  border: 15px solid #FEECE2;
+  outline: 1px solid #FEECE2
+}
+#wrp {
+  outline: 1px solid #FEECE2;
+  padding: 20px;
+  background: #fefefe
+} 
+#lg-ot {height: 450px; margin: 0px; position: relative; }
+#lg-in {height: 350px; width: 500px; border-top: none; border-right: none; background:  #f9f9f9; position: absolute; right: 0px; top: 100px}
+#lg-in .lg-logo {background-image: url(https://i.ibb.co/jyBvGd2/7cfb0d323d2e5a8622c5c6da4d64f653c6c51da7.jpg) ; position: absolute; background-position: center; top: 20px; left: 20px; right: 20px; bottom: 20px; outline: 1px solid #EDEDED; border: 5px solid #fff;}
+#lg-amb {height: 100px; width: 500px;     background: var(--color-aux);
+    border: 1px solid var(--color-bor); position: absolute; right: -1px; top: 0px;}
+
+
+
+#lg-amb #lg-amg {outline: 1px solid var(--color-bor); border: 5px solid #fff; width: 350px; position: absolute; top: 15px; left: 20px; bottom: 15px;}
+#lg-amb #lg-amg amb {display: block; position: absolute; bottom: 0px; top: -1px; right: 0px; left: -1px; overflow-y: auto; padding: 10px; font: 10px 'Montserrat', sans-serif; text-align: justify; background: #fafafa; border: 1px solid #EDEDED}
+#lg-amb #lg-amig {    box-shadow: 0 0 1px var(--color-bor); border: 5px solid #fff; width: 60px; position: absolute; top: 15px; right: 20px; bottom: 15px; overflow: hidden; border-radius: 100%}
+
+#lg-amigin {position: absolute; top: 10px; bottom: 10px; right: 10px; left: 10px; background: url(https://i.ibb.co/W2GdyWB/makima5.gif); background-size: 100%;outline: 1px solid #EDEDED; border: 5px solid #fff;}
+
+#amam {width: 350px; position: absolute; top: 18px; left: 30px; bottom: 15px;}
+#amam .title {font: 35px 'Roboto', sans-serif; color: #fff;font-weight: 900;letter-spacing:10px; text-shadow: 1px 1px 0 var(--color-bor), -1px 1px 0 var(--color-aux), 1px -1px 0 var(--color-aux), -1px -1px 0 var(--color-aux); margin-bottom: -5px}
+#amam .mintitle { text-transform: uppercase; 
+    color: #EFBC9B; 
+    text-shadow: 1px 1px 0 var(--color-aux), -1px 1px 0 var(--color-aux), 1px -1px 0 var(--color-aux), -1px -1px 0 var(--color-aux);
+    font: 8px 'Montserrat', sans-serif; font-weight: 600; letter-spacing: 6px; border-top: 2px dotted var(--color-bor); padding-top: 2px; display: inline-block;padding-left: 2px}
+
+#lg-tamb {outline: 1px solid #EDEDED;
+border: 10px solid #f9f9f9; width: 240px; position: absolute; top: 20px; left: 140px; font: 10px 'Montserrat', sans-serif;}
+#lg-tamb amb {display: block; border: 1px solid #ededed; padding: 10px; height: 70px; overflow-y: auto; text-align: justify; color: #555; line-height: 115%}
+#lg-tamb amb b {color: var(--color-bor); text-transform: uppercase; font-size: 8px;}
+
+#lg-miniamb {outline: 1px solid #EDEDED;
+background: #f9f9f9; position: absolute; top: 20px; left: 20px; width: 112px; height: 112px} 
+#lg-temp {clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%); background: var(--color-bor); position: absolute; right: 0px; top: 0px; bottom: 0px; width: 200px;}
+#lg-temp i {color: var(--color-aux); font-size: 80px; position: absolute; right: 20px; top: 12px;}
+
+#lg-temp .lg-tim {    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 1px 1px 0 var(--color-bor), -1px 1px 0 var(--color-bor), 1px -1px 0 var(--color-bor), -1px -1px 0 var(--color-bor);
+    font: 8px 'Montserrat', sans-serif;
+    font-weight: 500; width: 150px; position: absolute; right: 20px; text-align: right; line-height: 100%; bottom: 20px;}
+#lg-temp .lg-tim h1 {margin-bottom:6px}
+#lg-anon {position: absolute; top: 145px; left: 300px; width: 380px; bottom: 15px; width: 100px; display: flex; flex-direction: column;
+  flex-wrap: wrap; 
+justify-content: space-between; text-align: center;}
+#lg-anon a {    outline: 1px solid #EDEDED;
+    background: #f9f9f9; padding: 4px; background: #f3f3f3; 
+    color: var(--color-bor);
+    padding: 9px;
+    font: 7.7px 'Montserrat', sans-serif; text-transform: uppercase; font-weight:600; -webkit-transition: all .5s ease; -moz-transition: all .5s ease;     text-shadow: 1px 1px 0 trasparent, -1px 1px 0 trasparent, 1px -1px 0 trasparent, -1px -1px 0 trasparent;}
+#lg-anon a:hover {    background: var(--color-aux);
+    outline: 1px solid var(--color-bor); color: #fff;     text-shadow: 1px 1px 0 var(--color-bor), -1px 1px 0 var(--color-bor), 1px -1px 0 var(--color-bor), -1px -1px 0 var(--color-bor);}
+#lg-nun {position: absolute; top: 145px; left: 20px; width: 270px; background: #828; height: 90px; display: flex;}
+#lg-nunic {    background: var(--color-aux);
+    border: 1px solid var(--color-bor);    color: #fff;
+    text-shadow: 1px 1px 0 var(--color-bor), -1px 1px 0 var(--color-bor), 1px -1px 0 var(--color-bor), -1px -1px 0 var(--color-bor); display: flex;     flex-direction: column;
+justify-content: center;
+  align-items: center; width: 80px; font: 7px 'Montserrat', sans-serif; text-transform: uppercase; font-weight: 600; }
+
+#lg-nunic i {font-size: 30px;}
+#lg-nunic span {margin-bottom: 5px; }
+#lg-nuntxt {border: 1px solid #EDEDED;
+    background: #f9f9f9; width: 190px; overflow-y: auto;  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;}
+#lg-nuntxt strong {display: block; background: #fefefe; border: 1px solid #ededed; padding: 5px; width: 158px;     font: 7.7px 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600; color: var(--color-aux);}
+#lg-nuntxt span {display: block; background: #fefefe; border: 1px solid #ededed; border-top: none; padding: 5px; width: 158px;     font: 9px 'Montserrat', sans-serif; text-align: justify; }
+#lg-stuff {position: absolute; width:72px; background: #828; bottom: 15px; left: 215px; height: 192px; border: 1px solid #EDEDED;
+    background: #f9f9f9;  
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; }
+.lg-staff {width: 50px; height: 50px; background: url(https://i.ibb.co/bK6LFJQ/makima1.png); margin: 5px}
+#lg-impj {width: 185px; height: 192px; position: absolute; bottom: 16px; left: 20px;}
+#lg-imapej {    outline: 1px solid #EDEDED;
+    border: 10px solid #f9f9f9; height: 120px; background: url(https://i.ibb.co/6FBchjm/e2bc4100b55aafbf3492727b1b0eb5ef420f3cd7.gif)}
+.lg-nompj {background: var(--color-aux); outline: 1px solid var(--color-bor); padding: 10px; margin-top: 1px;font: 12px 'Roboto', sans-serif;
+  color: #FFF2E1;     text-shadow: 1px 1px 0 var(--color-bor), -1px 1px 0 var(--color-bor), 1px -1px 0 var(--color-bor), -1px -1px 0 var(--color-bor); display: flex;  justify-content: center;  flex-direction: column; height: 25px;
+}
+.lg-nompj strong {font-weight: 900;letter-spacing: 10px;font-style: italic;font-position: center;font-size: 30px;}
+.lg-nompj span {text-transform: uppercase; font-size: 50px; font-weight: bold;letter-spacing;15px;font-style: italic;position: center;}
+/** biggest in-sidebar flower **/
+ 
+.flowa, .flowa2, .flowa3, .flowa4 {
+    /** biggest in-sidebar flower **/
+    position: absolute;
+    z-index: 100;
+    margin: 490px ;
+    margin-right: 250px;
+    width: 1px;
+    height: 1px;
+    transform: rotate(20deg);
+}
+
+.flowa, .flowa2 {
+    animation-name: flowapowa;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes flowapowa {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.peta {
+    background-color: rgb(239, 188, 155, 0.6);
+    width: 50px;
+    height: 50px;
+    border-radius: 10px 32px 0 32px;
+    position: absolute;
+}
+
+.peta1 {
+    transform: rotate(45deg);
+    margin: -60px -24px;
+}
+
+.peta2 {
+    transform: rotate(117deg);
+    margin: -36px 9px;
+}
+
+.peta3 {
+    transform: rotate(189deg);
+    margin: 3px -4px;
+}
+
+.peta4 {
+    transform: rotate(261deg);
+    margin: 3px -45px;
+}
+
+.peta5 {
+    transform: rotate(333deg);
+    margin: -36px -58px;
+}
+
+.flowa2 {
+    /** top right large flower **/
+    margin: 15px 870px;
+    animation-duration: calc(30*2)s;
+    animation-direction: reverse;
+}
+
+.size400 .flowa2 { margin: 15px 770px; }
+.size250 .flowa2 { margin: 15px 930px; }
+
+
+.flowa2 .peta {width: 30px;height: 30px;}
+
+.flowa3, .flowa4 {
+    margin: 515px  40px;
+    animation-duration: 30s;
+    animation-direction: reverse;
+    transform: rotate(-20deg);
+    width: 2px;
+    height: 2px;
+}
+
+.flowa3 .peta, .flowa4 .peta {
+    width: 14px;
+    height: 14px;
+}
+
+.flowa3 .peta1, .flowa4 .peta1 {margin: 24px 9px;}
+.flowa3 .peta2, .flowa4 .peta2 {margin: 13px 4px;}
+.flowa3 .peta3, .flowa4 .peta3 {margin: 3px 1px;}
+.flowa3 .peta4, .flowa4 .peta4 {margin: 3px 18px;}
+.flowa3 .peta5, .flowa4 .peta5 {margin: 13px 22px;}
+
+.flowa4 { 
+    margin: 100px 50px; 
+    z-index: 100; 
+    animation-direction: reverse;
+    width: 1px; height: 1px;
+}
+    
+.flowa4 .peta { width: 30px; height: 30px; }
+
+.flowa3 .peta1, .flowa4 .peta1 {margin: -36px -15px; }
+.flowa3 .peta2, .flowa4 .peta2 {margin: -21px 5px; }
+.flowa3 .peta3, .flowa4 .peta3 {margin: 3px -2px; }
+.flowa3 .peta4, .flowa4 .peta4 {margin: 3px -27px; }
+.flowa3 .peta5, .flowa4 .peta5 {margin: -21px -35px; }
+</style>
+<link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.11.2/css/pro.min.css"/><link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+ <style type="text/css">
+body {
+    background: url(https://i.ibb.co/pnDbX18/grid-me.png);
+    background-color: #ffffff;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: repeat;
+}
+body,html, a, a:hover {
+    cursor:url(https://i.ibb.co/CW8zB0s/cursor2.png), progress!important;
+}
+A {text-decoration: none;}
+
+:root {
+    --color-aux: #FEECE2;
+    --color-bor: #FFBE98;
+}
+ 
+/** text selection **/
+
+::selection {
+    color: #ffffff; /** text selection text **/
+    background-color: #FEECE2; /** text selection bg **/
+}
+
+::-moz-selection {
+    color: #ffffff; /** text selection text **/
+    background-color: #FEECE2; /** text selection bg **/
+}
+
+::-webkit-selection {
+    color: #ffffff; /** text selection text **/
+    background-color: #FEECE2; /** text selection bg **/
+}
+
+/*NAVBAR*/
+#nvb {height: 100px; background: #fefefe90; position: fixed; top: 0px; left: 221px; right: 0px; border-bottom: 1px solid #EDEDED} 
+#nvb .nvb-tp {height: 80px;     background: #fefefe;
+    border-bottom: 1px solid #EDEDED}
+
+/*WRAP*/
+
+#wrp-ot {
+  max-width: 990px;
+  min-width: 990px;
+  outline: 1px solid #EDEDED;
+  background: #fefefe90;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 130px;
+  margin-left: 260px;
+  margin-right: 100px;
+  margin: 0 auto; margin-top: 150px;
+}
+#wrp-md {
+  border: 15px solid #FEECE2;
+  outline: 1px solid #FEECE2
+}
+#wrp {
+  outline: 1px solid #FEECE2;
+  padding: 20px;
+  background: #fefefe
+} 
+#lg-ot {height: 450px; margin: 0px; position: relative; }
+#lg-in {height: 350px; width: 500px; border-top: none; border-right: none; background:  #f9f9f9; position: absolute; right: 0px; top: 100px}
+#lg-in .lg-logo {background-image: url(https://i.ibb.co/jyBvGd2/7cfb0d323d2e5a8622c5c6da4d64f653c6c51da7.jpg) ; position: absolute; background-position: center; top: 20px; left: 20px; right: 20px; bottom: 20px; outline: 1px solid #EDEDED; border: 5px solid #fff;}
+#lg-amb {height: 100px; width: 500px;     background: var(--color-aux);
+    border: 1px solid var(--color-bor); position: absolute; right: -1px; top: 0px;}
+
+
+
+#lg-amb #lg-amg {outline: 1px solid var(--color-bor); border: 5px solid #fff; width: 350px; position: absolute; top: 15px; left: 20px; bottom: 15px;}
+#lg-amb #lg-amg amb {display: block; position: absolute; bottom: 0px; top: -1px; right: 0px; left: -1px; overflow-y: auto; padding: 10px; font: 10px 'Montserrat', sans-serif; text-align: justify; background: #fafafa; border: 1px solid #EDEDED}
+#lg-amb #lg-amig {    box-shadow: 0 0 1px var(--color-bor); border: 5px solid #fff; width: 60px; position: absolute; top: 15px; right: 20px; bottom: 15px; overflow: hidden; border-radius: 100%}
+
+#lg-amigin {position: absolute; top: 10px; bottom: 10px; right: 10px; left: 10px; background: url(https://i.ibb.co/W2GdyWB/makima5.gif); background-size: 100%;outline: 1px solid #EDEDED; border: 5px solid #fff;}
+
+#amam {width: 350px; position: absolute; top: 18px; left: 30px; bottom: 15px;}
+#amam .title {font: 35px 'Roboto', sans-serif; color: #fff;font-weight: 900;letter-spacing:10px; text-shadow: 1px 1px 0 var(--color-bor), -1px 1px 0 var(--color-aux), 1px -1px 0 var(--color-aux), -1px -1px 0 var(--color-aux); margin-bottom: -5px}
+#amam .mintitle { text-transform: uppercase; 
+    color: #EFBC9B; 
+    text-shadow: 1px 1px 0 var(--color-aux), -1px 1px 0 var(--color-aux), 1px -1px 0 var(--color-aux), -1px -1px 0 var(--color-aux);
+    font: 8px 'Montserrat', sans-serif; font-weight: 600; letter-spacing: 6px; border-top: 2px dotted var(--color-bor); padding-top: 2px; display: inline-block;padding-left: 2px}
+
+#lg-tamb {outline: 1px solid #EDEDED;
+border: 10px solid #f9f9f9; width: 240px; position: absolute; top: 20px; left: 140px; font: 10px 'Montserrat', sans-serif;}
+#lg-tamb amb {display: block; border: 1px solid #ededed; padding: 10px; height: 70px; overflow-y: auto; text-align: justify; color: #555; line-height: 115%}
+#lg-tamb amb b {color: var(--color-bor); text-transform: uppercase; font-size: 8px;}
+
+#lg-miniamb {outline: 1px solid #EDEDED;
+background: #f9f9f9; position: absolute; top: 20px; left: 20px; width: 112px; height: 112px} 
+#lg-temp {clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%); background: var(--color-bor); position: absolute; right: 0px; top: 0px; bottom: 0px; width: 200px;}
+#lg-temp i {color: var(--color-aux); font-size: 80px; position: absolute; right: 20px; top: 12px;}
+
+#lg-temp .lg-tim {    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 1px 1px 0 var(--color-bor), -1px 1px 0 var(--color-bor), 1px -1px 0 var(--color-bor), -1px -1px 0 var(--color-bor);
+    font: 8px 'Montserrat', sans-serif;
+    font-weight: 500; width: 150px; position: absolute; right: 20px; text-align: right; line-height: 100%; bottom: 20px;}
+#lg-temp .lg-tim h1 {margin-bottom:6px}
+#lg-anon {position: absolute; top: 145px; left: 300px; width: 380px; bottom: 15px; width: 100px; display: flex; flex-direction: column;
+  flex-wrap: wrap; 
+justify-content: space-between; text-align: center;}
+#lg-anon a {    outline: 1px solid #EDEDED;
+    background: #f9f9f9; padding: 4px; background: #f3f3f3; 
+    color: var(--color-bor);
+    padding: 9px;
+    font: 7.7px 'Montserrat', sans-serif; text-transform: uppercase; font-weight:600; -webkit-transition: all .5s ease; -moz-transition: all .5s ease;     text-shadow: 1px 1px 0 trasparent, -1px 1px 0 trasparent, 1px -1px 0 trasparent, -1px -1px 0 trasparent;}
+#lg-anon a:hover {    background: var(--color-aux);
+    outline: 1px solid var(--color-bor); color: #fff;     text-shadow: 1px 1px 0 var(--color-bor), -1px 1px 0 var(--color-bor), 1px -1px 0 var(--color-bor), -1px -1px 0 var(--color-bor);}
+#lg-nun {position: absolute; top: 145px; left: 20px; width: 270px; background: #828; height: 90px; display: flex;}
+#lg-nunic {    background: var(--color-aux);
+    border: 1px solid var(--color-bor);    color: #fff;
+    text-shadow: 1px 1px 0 var(--color-bor), -1px 1px 0 var(--color-bor), 1px -1px 0 var(--color-bor), -1px -1px 0 var(--color-bor); display: flex;     flex-direction: column;
+justify-content: center;
+  align-items: center; width: 80px; font: 7px 'Montserrat', sans-serif; text-transform: uppercase; font-weight: 600; }
+
+#lg-nunic i {font-size: 30px;}
+#lg-nunic span {margin-bottom: 5px; }
+#lg-nuntxt {border: 1px solid #EDEDED;
+    background: #f9f9f9; width: 190px; overflow-y: auto;  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;}
+#lg-nuntxt strong {display: block; background: #fefefe; border: 1px solid #ededed; padding: 5px; width: 158px;     font: 7.7px 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600; color: var(--color-aux);}
+#lg-nuntxt span {display: block; background: #fefefe; border: 1px solid #ededed; border-top: none; padding: 5px; width: 158px;     font: 9px 'Montserrat', sans-serif; text-align: justify; }
+#lg-stuff {position: absolute; width:72px; background: #828; bottom: 15px; left: 215px; height: 192px; border: 1px solid #EDEDED;
+    background: #f9f9f9;  
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; }
+.lg-staff {width: 50px; height: 50px; background: url(https://i.ibb.co/bK6LFJQ/makima1.png); margin: 5px}
+#lg-impj {width: 185px; height: 192px; position: absolute; bottom: 16px; left: 20px;}
+#lg-imapej {    outline: 1px solid #EDEDED;
+    border: 10px solid #f9f9f9; height: 120px; background: url(https://i.ibb.co/6FBchjm/e2bc4100b55aafbf3492727b1b0eb5ef420f3cd7.gif)}
+.lg-nompj {background: var(--color-aux); outline: 1px solid var(--color-bor); padding: 10px; margin-top: 1px;font: 12px 'Roboto', sans-serif;
+  color: #FFF2E1;     text-shadow: 1px 1px 0 var(--color-bor), -1px 1px 0 var(--color-bor), 1px -1px 0 var(--color-bor), -1px -1px 0 var(--color-bor); display: flex;  justify-content: center;  flex-direction: column; height: 25px;
+}
+.lg-nompj strong {font-weight: 900;letter-spacing: 10px;font-style: italic;font-position: center;font-size: 30px;}
+.lg-nompj span {text-transform: uppercase; font-size: 50px; font-weight: bold;letter-spacing;15px;font-style: italic;position: center;}
+/** biggest in-sidebar flower **/
+ 
+.flowa, .flowa2, .flowa3, .flowa4 {
+    /** biggest in-sidebar flower **/
+    position: absolute;
+    z-index: 100;
+    margin: 490px ;
+    margin-right: 250px;
+    width: 1px;
+    height: 1px;
+    transform: rotate(20deg);
+}
+
+.flowa, .flowa2 {
+    animation-name: flowapowa;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes flowapowa {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.peta {
+    background-color: rgb(239, 188, 155, 0.6);
+    width: 50px;
+    height: 50px;
+    border-radius: 10px 32px 0 32px;
+    position: absolute;
+}
+
+.peta1 {
+    transform: rotate(45deg);
+    margin: -60px -24px;
+}
+
+.peta2 {
+    transform: rotate(117deg);
+    margin: -36px 9px;
+}
+
+.peta3 {
+    transform: rotate(189deg);
+    margin: 3px -4px;
+}
+
+.peta4 {
+    transform: rotate(261deg);
+    margin: 3px -45px;
+}
+
+.peta5 {
+    transform: rotate(333deg);
+    margin: -36px -58px;
+}
+
+.flowa2 {
+    /** top right large flower **/
+    margin: 15px 870px;
+    animation-duration: calc(30*2)s;
+    animation-direction: reverse;
+}
+
+.size400 .flowa2 { margin: 15px 770px; }
+.size250 .flowa2 { margin: 15px 930px; }
+
+
+.flowa2 .peta {width: 30px;height: 30px;}
+
+.flowa3, .flowa4 {
+    margin: 515px  40px;
+    animation-duration: 30s;
+    animation-direction: reverse;
+    transform: rotate(-20deg);
+    width: 2px;
+    height: 2px;
+}
+
+.flowa3 .peta, .flowa4 .peta {
+    width: 14px;
+    height: 14px;
+}
+
+.flowa3 .peta1, .flowa4 .peta1 {margin: 24px 9px;}
+.flowa3 .peta2, .flowa4 .peta2 {margin: 13px 4px;}
+.flowa3 .peta3, .flowa4 .peta3 {margin: 3px 1px;}
+.flowa3 .peta4, .flowa4 .peta4 {margin: 3px 18px;}
+.flowa3 .peta5, .flowa4 .peta5 {margin: 13px 22px;}
+
+.flowa4 { 
+    margin: 100px 50px; 
+    z-index: 100; 
+    animation-direction: reverse;
+    width: 1px; height: 1px;
+}
+    
+.flowa4 .peta { width: 30px; height: 30px; }
+
+.flowa3 .peta1, .flowa4 .peta1 {margin: -36px -15px; }
+.flowa3 .peta2, .flowa4 .peta2 {margin: -21px 5px; }
+.flowa3 .peta3, .flowa4 .peta3 {margin: 3px -2px; }
+.flowa3 .peta4, .flowa4 .peta4 {margin: 3px -27px; }
+.flowa3 .peta5, .flowa4 .peta5 {margin: -21px -35px; }
+</style>
+<!--
+        MUSIC PLAYER #02 by glenthemes
+        ♬ glenthpvs.tumblr.com/player02
+--->
+
+<script src="//cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
+<link href="//fonts.googleapis.com/css?family=Readex+Pro" rel="stylesheet">
+<link href="//glenthemes.github.io/-music-/glenplayer02.css" rel="stylesheet">
+<script src="//glenthemes.github.io/-music-/glenplayer02.js"></script>
+<style element="glenplayer02">
+:root {
+    --MusicPlayer-Position:bottom left;
+    --MusicPlayer-Edge-Offset:18px;
+    
+    --MusicPlayer-Buttons-Size:14px;
+    --MusicPlayer-Buttons-Color:#60656c;
+    --MusicPlayer-Buttons-Fill:no;
+    
+    --MusicPlayer-Note-Size:11px;
+    --MusicPlayer-Note-Color:#60656c;
+    
+    --MusicPlayer-Spacing-1:7px;
+    --MusicPlayer-Spacing-2:9px;
+    
+    --MusicPlayer-Text-Size:9px;
+    --MusicPlayer-Text-Color:#60656c;
+}
+</style>
+
+<div glenplayer02>
+    <div controls></div>
+    
+    <i class="aa-line-icons" icon-name="music-2"></i>
+    
+    <!-- SONG NAME HERE -->
+     
+    
+    <!-- HOW TO CHANGE THE MUSIC -->
+    <!-- linktr.ee/direct_file_links -->
+    <audio src="https://file.garden/Zd6Gl7mXyXjgTBxp/Sabrina%20Carpenter%20-%20Feather.mp3" volume="100%" autoplay></audio>
+    
+</div><!--don't delete this line-->
+<!--end music player-->
+    
+
+<div id="wrp-ot">
+  <div class="flowa">
+    <div class="peta peta1"></div>
+    <div class="peta peta2"></div>
+    <div class="peta peta3"></div>
+    <div class="peta peta4"></div>
+    <div class="peta peta5"></div>
+</div>
+<div class="flowa2">
+    <div class="peta peta1"></div>
+    <div class="peta peta2"></div>
+    <div class="peta peta3"></div>
+    <div class="peta peta4"></div>
+    <div class="peta peta5"></div>
+</div>
+<div class="flowa3">
+    <div class="peta peta1"></div>
+    <div class="peta peta2"></div>
+    <div class="peta peta3"></div>
+    <div class="peta peta4"></div>
+    <div class="peta peta5"></div>
+</div>
+<div class="flowa4">
+    <div class="peta peta1"></div>
+    <div class="peta peta2"></div>
+    <div class="peta peta3"></div>
+    <div class="peta peta4"></div>
+    <div class="peta peta5"></div>
+</div>
+ 
+<div id="wrp-md">
+<div id="wrp">
+  <div id="lg-ot">
+  <div id="lg-in"> 
+    <div class="lg-logo">
+    </div>
+  </div>
+    
+  <div id="lg-amb">
+    <div id="amam">
+      <div class="title"><i>SHIHAI</div>
+      <div class="mintitle">janne/in luv/uknown</div></div> 
+<div id="lg-temp"> 
+<i class="fas fa-flower"></i>
+<div class="lg-tim">
+  <h1> </h1>
+    <br>A piece of heaven in reality. 
+  </div> </div> 
+    </div>
+<div id="lg-tamb"><amb>
+  
+  <b>Your necessary evil is just an excuse to justify your own crimes.</b> Those excuses are unnecessary to society. The truly necessary evils are always kept collared and controlled by the state.
+ </amb></div>
+    <div id="lg-miniamb"><div id="lg-amigin"></div></div>
+    <div id="lg-anon">
+      <a href="/"> home</a>
+      <a href="/"> archive</a>
+      <a href="https://xat.me/Basch"> Love</a>
+      <a href="https://xat.me/xSwordPerfect"> Fede</a>
+      <a href="https://xat.me/Babitas"> Pau</a>
+      <a href="https://xat.me/Kiri"> Pame</a>
+      <a href="https://xat.me/Kenza"> Deni</a>
+      <a href="https://xat.me/Kiri"> cred</a>
+       
+    </div> 
+    <div id="lg-nun"> 
+  <div id="lg-nunic"> <span></span>
+<i class="fas fa-star"></i> 
+ 
+      </div>
+  <div id="lg-nuntxt">
+    <b><strong>dolcet intentions</strong></b>
+    <span>In the end, we conserve only what we love; we love only what we understand; and we understand only what we are taught. </span></div></div>
+<div id="lg-stuff">
+  <div class="lg-staff"> </div>
+  <div class="lg-staff"> </div>
+  <div class="lg-staff"> </div>
+</div>
+<div id="lg-impj">
+<div id="lg-imapej">
+  
+</div>
+<div class="lg-nompj"> 
+  <strong>こもれび</strong>
+ 
+</div>
+  
+  
+    </div> </div>
+  
+
+
